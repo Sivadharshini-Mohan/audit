@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=en");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #F3F3F4;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #000000;
+  margin: 0px !important;
+  font-size: 13px !important;
+}
+
+.link-color {
+  color: #26519b;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.m-l-r-0 {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.m-r-0 {
+  margin-right: 0px !important;
+}
+
+.m-l-0 {
+  margin-left: 0px !important;
+}
+
+.ibox {
+  clear: both;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.ibox-heading {
+  background-color: #f3f6fb;
+  height: 45px;
+}
+
+.ibox-content {
+  background-color: #ffffff;
+  padding: 15px 15px 15px 15px;
+}
+
+.box-header-color {
+  background-color: #f3f6fb;
+}
+
+.ibox-heading-content {
+  padding: 15px;
+  font-size: large;
+}
+
+.btn-devero {
+  box-shadow: inset 0px 0px 0px #807fc7, 0px 0px 0px 0px #808080, 0px 0px 2px #595959;
+  background-color: #ffffff;
+
+}
+
+.a-menu a:hover {
+  background-color: #E8E8E8;
+  border-radius: 4px;
+}
+
+.fs-5 {
+  font-size: 13px !important;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.row {
+  margin-right: calc(-.224 * var(--bs-gutter-x));
+  margin-left: calc(-.224 * var(--bs-gutter-x));
+}
